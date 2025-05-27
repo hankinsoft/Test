@@ -1,7 +1,7 @@
 name: Bug report
 description: Create a report to help us improve SQLPro apps
 title: "Bug: "
-labels: ['type:bug-suspected']
+labels: ['type:bug']
 assignees: hankinsoft
 
 body:
