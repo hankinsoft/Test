@@ -82,8 +82,3 @@ body:
         - Other
     validations:
       required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        _Issues without complete environment details will be closed automatically._
