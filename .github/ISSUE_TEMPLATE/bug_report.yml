@@ -39,7 +39,6 @@ body:
       label: Product
       description: Which product are you using?
       options:
-        - Choose one
         - SQLPro Studio
         - SQLPro for MySQL
         - SQLPro for MSSQL
@@ -67,12 +66,10 @@ body:
       label: Platform
       description: What platform are you having the issue on?
       options:
-        - label: "— Choose one —"
-          value: ""          # empty → keeps form invalid while required: true
-        - label: "SQLPro Studio"
-          value: "SQLPro Studio"
-        - label: "SQLPro for MySQL"
-          value: "SQLPro for MySQL"
+        - macOS
+        - iPhone
+        - iPad
+        - Windows
     validations:
       required: true
 
@@ -82,7 +79,6 @@ body:
       label: Installation source
       description: Where did you install the app from?
       options:
-        - Choose one
         - App Store
         - Setapp
         - Website download
