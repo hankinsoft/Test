@@ -39,6 +39,7 @@ body:
       label: Product
       description: Which product are you using?
       options:
+        - Choose one
         - SQLPro Studio
         - SQLPro for MySQL
         - SQLPro for MSSQL
@@ -66,6 +67,8 @@ body:
       label: Platform
       description: What platform are you having the issue on?
       options:
+        - label: "— Choose one —"
+          value: ""
         - macOS
         - iPhone
         - iPad
@@ -79,6 +82,7 @@ body:
       label: Installation source
       description: Where did you install the app from?
       options:
+        - Choose one
         - App Store
         - Setapp
         - Website download
