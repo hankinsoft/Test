@@ -52,8 +52,7 @@ body:
     id: app-version
     attributes:
       label: App version
-      description: Paste the exact version/build number (e.g. 2025.14 or 2.3.0-beta4).
-      placeholder: <version here>
+      description: Paste the exact version/build number (e.g. 2025.x).
     validations:
       required: true
 
