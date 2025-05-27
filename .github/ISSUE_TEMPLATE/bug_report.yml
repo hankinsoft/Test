@@ -66,16 +66,23 @@ body:
     attributes:
       label: Platform
       description: What platform are you having the issue on?
-      options:
-      - label: "— Choose one —"
-        value: ""          # empty → invalid while required: true
-      - label: SQLPro Studio
-      - label: SQLPro for MySQL
-      - label: SQLPro for MSSQL
-      - label: SQLPro for Oracle
-      - label: SQLPro for SQLite
-      - label: SQLPro for Postgres
-      - label: SQLPro for Snowflake
+options:
+  - label: "— Choose one —"
+    value: ""          # empty → keeps form invalid while required: true
+  - label: "SQLPro Studio"
+    value: "SQLPro Studio"
+  - label: "SQLPro for MySQL"
+    value: "SQLPro for MySQL"
+  - label: "SQLPro for MSSQL"
+    value: "SQLPro for MSSQL"
+  - label: "SQLPro for Oracle"
+    value: "SQLPro for Oracle"
+  - label: "SQLPro for SQLite"
+    value: "SQLPro for SQLite"
+  - label: "SQLPro for Postgres"
+    value: "SQLPro for Postgres"
+  - label: "SQLPro for Snowflake"
+    value: "SQLPro for Snowflake"
     validations:
       required: true
 
