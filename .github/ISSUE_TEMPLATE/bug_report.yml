@@ -47,10 +47,35 @@ body:
       label: Environment details
       value: |
         - Device:
-        - OS:
         - SQLPro app version:
-        - Installation source (App Store / Website / Setapp):
         - Target database server:
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: What platform are you having the issue on?
+      options:
+        - macOS
+        - iPhone
+        - iPad
+        - Windows
+    validations:
+      required: true
+
+  - type: dropdown
+    id: install-source
+    attributes:
+      label: Installation source
+      description: Where did you install the app from?
+      options:
+        - App Store
+        - Setapp
+        - Website download
+        - TestFlight
+        - Other
     validations:
       required: true
 
