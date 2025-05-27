@@ -26,6 +26,25 @@ body:
 
         **Screenshots**
         If applicable, add screenshots to help explain your problem.
+
+        **Additional details**
+        Enter any additional details we should know about.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Which product are you using?
+      options:
+        - SQLPro Studio
+        - SQLPro for MySQL
+        - SQLPro for MSSQL
+        - SQLPro for Oracle
+        - SQLPro for SQLite
+        - SQLPro for Postgres
+        - SQLPro for Snowflake
     validations:
       required: true
 
@@ -66,13 +85,6 @@ body:
         - Other
     validations:
       required: true
-
-  - type: textarea
-    id: extra
-    attributes:
-      label: Additional context
-    validations:
-      required: false
 
   - type: markdown
     attributes:
