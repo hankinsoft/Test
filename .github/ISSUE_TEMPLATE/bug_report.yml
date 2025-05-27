@@ -48,14 +48,12 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: environment
+  - type: input
+    id: app-version
     attributes:
-      label: Product and version details
-      value: |
-        - SQLPro Product: Ex: SQLPro Studio, SQLPro for SQLite, SQLPro for MySQL, etc).
-        - SQLPro app version: Ex: 2025.14
-        - Target database server: Ex: MySQL
+      label: App version
+      description: Paste the exact version/build number (e.g. 2025.14 or 2.3.0-beta4).
+      placeholder: <version here>
     validations:
       required: true
 
