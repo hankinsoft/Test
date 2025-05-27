@@ -30,6 +30,7 @@ body:
         **Additional details**
         Enter any additional details we should know about.
     validations:
+      minLength: 30
       required: true
 
   - type: dropdown
@@ -55,6 +56,9 @@ body:
       description: Paste the exact version/build number (e.g. 2025.x).
     validations:
       required: true
+      pattern:
+        value: '^\d{4}\.\d+$'
+        message: "Use the format 4-digit year, a dot, then the build number (e.g. 2025.1)."
 
   - type: dropdown
     id: platform
