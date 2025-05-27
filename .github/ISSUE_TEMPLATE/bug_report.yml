@@ -67,12 +67,15 @@ body:
       label: Platform
       description: What platform are you having the issue on?
       options:
-        - label: "— Choose one —"
-          value: ""
-        - macOS
-        - iPhone
-        - iPad
-        - Windows
+      - label: "— Choose one —"
+        value: ""          # empty → invalid while required: true
+      - label: SQLPro Studio
+      - label: SQLPro for MySQL
+      - label: SQLPro for MSSQL
+      - label: SQLPro for Oracle
+      - label: SQLPro for SQLite
+      - label: SQLPro for Postgres
+      - label: SQLPro for Snowflake
     validations:
       required: true
 
